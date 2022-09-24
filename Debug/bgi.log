@@ -1,0 +1,130 @@
+﻿Build started 1/17/2020 1:37:08 AM.
+     1>Project "C:\Users\Gulsher Ahmed Virk\Desktop\chess\new chess\BGI2010\bgi\bgi.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt bishop.cpp chessboard.cpp king.cpp knight.cpp main.cxx pawn.cpp piece.cpp queen.cpp rook.cpp
+         king.cpp
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(4): error C2653: 'king' : is not a class or namespace name
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(7): warning C4508: 'king' : function should return a value; 'void' return type assumed
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(9): error C2653: 'king' : is not a class or namespace name
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(9): error C2061: syntax error : identifier 'colors'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(9): error C2065: 'c' : undeclared identifier
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(10): error C2550: 'king' : constructor initializer lists are only allowed on constructor definitions
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(12): warning C4508: 'king' : function should return a value; 'void' return type assumed
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(13): error C2653: 'king' : is not a class or namespace name
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(15): error C2065: 'creader' : undeclared identifier
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(15): error C2065: 'WHITE' : undeclared identifier
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(17): error C2065: 'location' : undeclared identifier
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(17): error C2228: left of '.get_x' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(17): error C2228: left of '.get_y' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(17): error C3861: 'readimagefile': identifier not found
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(21): error C2065: 'location' : undeclared identifier
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(21): error C2228: left of '.get_x' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(21): error C2228: left of '.get_y' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(21): error C3861: 'readimagefile': identifier not found
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(25): error C2653: 'king' : is not a class or namespace name
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(25): error C2061: syntax error : identifier 'piece'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(27): error C2065: 'b' : undeclared identifier
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(27): error C2228: left of '.get_color' must have class/struct/union
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(33): error C2653: 'king' : is not a class or namespace name
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(33): error C2146: syntax error : missing ';' before identifier 'get_color'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(35): error C2065: 'creader' : undeclared identifier
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(37): error C2653: 'king' : is not a class or namespace name
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\king.cpp(37): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         chessboard.cpp
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(47): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(48): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(49): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(50): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(51): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(61): error C2259: 'rook' : cannot instantiate abstract class
+                 due to following members:
+                 'bool piece::islegalmove(int,int,int,int,piece *[][8])' : is abstract
+                 c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\piece.h(17) : see declaration of 'piece::islegalmove'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(62): error C2259: 'knight' : cannot instantiate abstract class
+                 due to following members:
+                 'bool piece::islegalmove(int,int,int,int,piece *[][8])' : is abstract
+                 c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\piece.h(17) : see declaration of 'piece::islegalmove'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(63): error C2259: 'bishop' : cannot instantiate abstract class
+                 due to following members:
+                 'bool piece::islegalmove(int,int,int,int,piece *[][8])' : is abstract
+                 c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\piece.h(17) : see declaration of 'piece::islegalmove'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(64): error C2259: 'queen' : cannot instantiate abstract class
+                 due to following members:
+                 'bool piece::islegalmove(int,int,int,int,piece *[][8])' : is abstract
+                 c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\piece.h(17) : see declaration of 'piece::islegalmove'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(65): error C2061: syntax error : identifier 'king'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(66): error C2259: 'bishop' : cannot instantiate abstract class
+                 due to following members:
+                 'bool piece::islegalmove(int,int,int,int,piece *[][8])' : is abstract
+                 c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\piece.h(17) : see declaration of 'piece::islegalmove'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(67): error C2259: 'knight' : cannot instantiate abstract class
+                 due to following members:
+                 'bool piece::islegalmove(int,int,int,int,piece *[][8])' : is abstract
+                 c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\piece.h(17) : see declaration of 'piece::islegalmove'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(68): error C2259: 'rook' : cannot instantiate abstract class
+                 due to following members:
+                 'bool piece::islegalmove(int,int,int,int,piece *[][8])' : is abstract
+                 c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\piece.h(17) : see declaration of 'piece::islegalmove'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(71): error C2259: 'pawn' : cannot instantiate abstract class
+                 due to following members:
+                 'bool piece::islegalmove(int,int,int,int,piece *[][8])' : is abstract
+                 c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\piece.h(17) : see declaration of 'piece::islegalmove'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(80): error C2259: 'rook' : cannot instantiate abstract class
+                 due to following members:
+                 'bool piece::islegalmove(int,int,int,int,piece *[][8])' : is abstract
+                 c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\piece.h(17) : see declaration of 'piece::islegalmove'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(81): error C2259: 'knight' : cannot instantiate abstract class
+                 due to following members:
+                 'bool piece::islegalmove(int,int,int,int,piece *[][8])' : is abstract
+                 c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\piece.h(17) : see declaration of 'piece::islegalmove'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(82): error C2259: 'bishop' : cannot instantiate abstract class
+                 due to following members:
+                 'bool piece::islegalmove(int,int,int,int,piece *[][8])' : is abstract
+                 c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\piece.h(17) : see declaration of 'piece::islegalmove'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(83): error C2259: 'queen' : cannot instantiate abstract class
+                 due to following members:
+                 'bool piece::islegalmove(int,int,int,int,piece *[][8])' : is abstract
+                 c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\piece.h(17) : see declaration of 'piece::islegalmove'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(84): error C2061: syntax error : identifier 'king'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(85): error C2259: 'bishop' : cannot instantiate abstract class
+                 due to following members:
+                 'bool piece::islegalmove(int,int,int,int,piece *[][8])' : is abstract
+                 c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\piece.h(17) : see declaration of 'piece::islegalmove'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(86): error C2259: 'knight' : cannot instantiate abstract class
+                 due to following members:
+                 'bool piece::islegalmove(int,int,int,int,piece *[][8])' : is abstract
+                 c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\piece.h(17) : see declaration of 'piece::islegalmove'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(87): error C2259: 'rook' : cannot instantiate abstract class
+                 due to following members:
+                 'bool piece::islegalmove(int,int,int,int,piece *[][8])' : is abstract
+                 c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\piece.h(17) : see declaration of 'piece::islegalmove'
+     1>c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\chessboard.cpp(90): error C2259: 'pawn' : cannot instantiate abstract class
+                 due to following members:
+                 'bool piece::islegalmove(int,int,int,int,piece *[][8])' : is abstract
+                 c:\users\gulsher ahmed virk\desktop\chess\new chess\bgi2010\bgi\piece.h(17) : see declaration of 'piece::islegalmove'
+         Generating Code...
+         Compiling...
+         bishop.cpp
+         Generating Code...
+         Compiling...
+         rook.cpp
+         queen.cpp
+         pawn.cpp
+         main.cxx
+         knight.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         piece.cpp
+     1>Done Building Project "C:\Users\Gulsher Ahmed Virk\Desktop\chess\new chess\BGI2010\bgi\bgi.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:12.73
